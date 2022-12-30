@@ -9,7 +9,9 @@ public class ArrayListDemo {
 		list.add("dakshata");
 		list.add("bhanji");
 		list.add(100);
-		System.out.println(list);
+	//	System.out.println(list);
+		
+		list.stream().forEach(x -> System.out.println(x));
 		
 	}
 	
